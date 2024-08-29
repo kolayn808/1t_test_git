@@ -1,8 +1,7 @@
 FROM python:3.9-slim
 
-#WORKDIR /usr/src/app
-WORKDIR /home/kolayn/docker_python_app
+WORKDIR /usr/src/app
 
-COPY app.py 1.txt 2.txt 34.txt 44.txt 45.txt app.txt test.txt test.py docker.txt dockerfile .
+COPY app.py a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 .
 
 ENTRYPOINT ["python", "app.py"]
